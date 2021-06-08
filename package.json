@@ -1,0 +1,23 @@
+{
+  "name": "dima-s---portfolio",
+  "version": "1.0.0",
+  "description": "Портфолио",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dijen/Dima-s---portfolio.git"
+  },
+  "author": "Din",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dijen/Dima-s---portfolio/issues"
+  },
+  "homepage": "https://github.com/Dijen/Dima-s---portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2"
+  }
+}
