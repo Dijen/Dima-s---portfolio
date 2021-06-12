@@ -4,19 +4,28 @@
     box-sizing: border-box;
 }
 
+html {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
-    background: linear-gradient(360deg, #EECFBA, #5ECCFFA6);
+    background: linear-gradient(360deg, rgb(93 92 91 / 49%), rgba(94, 204, 255, 0.651));
 }
 
 a {
     text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color: #fff;
 }
 
 h3 {
     text-shadow: -3px -3px 5px black;
-    ;
+    text-align: center;
 }
 
 
@@ -93,7 +102,7 @@ p {
 
 .main {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto 100px;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
@@ -116,8 +125,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
-    /* margin-top: 50px; */
     width: 900px;
     margin: 0 auto;
     margin-bottom: 200px;
@@ -144,22 +151,18 @@ p {
 
 ul>li {
     font-size: 20px;
-    /* list-style: none; */
     margin-bottom: 10px;
     color: rgba(156, 156, 156, 0.719);
 }
 
 .link_btn {
-    display: block;
     width: 300px;
     height: 50px;
     background-color: rgb(119, 119, 119);
     box-shadow: 0px 3px 5px 5px rgba(13, 13, 13, 0.84);
     border-radius: 5px;
-    cursor: pointer;
     text-align: center;
     padding: 15px;
-    color: #fff;
 }
 
 .link_btn:active {
@@ -201,13 +204,6 @@ td {
 tr:nth-child(odd) {
     background-color: rgb(179, 179, 179);
 }
-
-
-/* .table_p {
-    position: absolute;
-    left: 0;
-    width: 20%;
-} */
 
 
 /* my_works */
@@ -332,7 +328,25 @@ tr:nth-child(odd) {
 
 .footer {
     width: 100%;
-    height: 220px;
-    background-color: rgba(206, 206, 206, 0.815);
+    height: 152px;
+    background-color: rgb(99 99 99);
     margin: 0 auto;
+    padding: 10px;
+}
+
+.block_contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+}
+
+.contacts {
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon {
+    margin-right: 5px;
 }
