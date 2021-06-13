@@ -8,6 +8,7 @@ html {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 body {
@@ -17,8 +18,9 @@ body {
 }
 
 a {
-    text-decoration: none;
     display: block;
+    align-self: center;
+    text-decoration: none;
     cursor: pointer;
     color: #fff;
 }
@@ -38,6 +40,7 @@ h3 {
     height: 100%;
     width: 100%;
     margin: 0 auto;
+    padding: 0 16px;
     margin-bottom: 100px;
 }
 
@@ -60,7 +63,6 @@ h3 {
     height: 1px;
     background-color: rgba(0, 0, 0, 0.41);
     margin-top: 100px;
-    margin-left: 20px;
     margin-left: -14%;
     box-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561);
 }
@@ -73,6 +75,10 @@ h3 {
     background: url("../img/img-360.png") no-repeat center / 1200px 600px;
     box-shadow: 0 0px 20px 10px rgb(159, 220, 248) inset, 0 0 20px 10px rgb(158, 220, 249) inset, -20px 10px 20px 20px rgba(255, 255, 255, 0.22) inset;
     border-radius: 150px 0;
+    -webkit-border-radius: 150px 0;
+    -moz-border-radius: 150px 0;
+    -ms-border-radius: 150px 0;
+    -o-border-radius: 150px 0;
 }
 
 .header .information {
@@ -109,9 +115,10 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1068px;
     height: 100%;
     margin: 0 auto;
+    padding: 0 16px;
     padding-top: 50px;
 }
 
@@ -122,55 +129,81 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
-    border-radius: 50px;
-    max-width: 1100px;
-    width: 100%;
-    height: 700px;
+    flex-wrap: wrap;
     margin: 0 auto;
     margin-bottom: 200px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    max-width: 1100px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
 }
 
 .img_me {
+    height: 450px;
+    width: 350px;
     border: 12px ridge #8d8d8da1;
     border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
 }
 
 .title-skill {
-    font-size: 40px;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
 
 .skills {
-    width: 30%;
-    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 40%;
+    width: 350px;
+    height: 400px;
+    /* flex-basis: 50%;
+    height: 400px; */
 }
 
-.list {
-    margin-bottom: 50px;
-}
+
+/* ul {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
 
 ul>li {
     font-size: 20px;
     margin-bottom: 10px;
-    color: rgba(156, 156, 156, 0.719);
+    color: rgba(0, 0, 0, 0.719);
 }
 
-.link_btn {
+.btn {
+    margin-top: 50px;
+    padding: 15px;
     width: 300px;
     height: 50px;
     background-color: rgb(119, 119, 119);
     box-shadow: 0px 3px 5px 5px rgba(13, 13, 13, 0.84);
     border-radius: 5px;
     text-align: center;
-    padding: 15px;
 }
 
-.link_btn:active {
+.img_skill {
+    margin-top: 50px;
+}
+
+.image_skill {
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
+}
+
+.btn:active {
     box-shadow: none;
+    border: 1px solid black;
 }
 
-.link_btn:hover {
+.btn:hover {
     background-color: rgba(206, 206, 206, 0.815);
     color: #000;
 }
@@ -279,11 +312,23 @@ tr:nth-child(odd) {
 .block_cards:hover .bottom {
     transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     bottom: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
 }
 
 .block_cards:hover {
     transform: translateY(-10px);
     transition: all 0.5s ease;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 
 .link_card:hover {
@@ -340,7 +385,11 @@ tr:nth-child(odd) {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 120px;
+    height: 110px;
+}
+
+.h2 {
+    text-align: center;
 }
 
 .contacts {
@@ -350,4 +399,8 @@ tr:nth-child(odd) {
 
 .icon {
     margin-right: 5px;
+}
+
+.footer_link:hover {
+    color: black;
 }
