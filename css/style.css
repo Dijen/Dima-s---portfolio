@@ -63,7 +63,6 @@ h3 {
     margin-left: 20px;
     margin-left: -14%;
     box-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561);
-    ;
 }
 
 .header .description_block {
@@ -110,7 +109,6 @@ p {
 
 .container {
     width: 100%;
-    /* max-width: 1200px; */
     max-width: 1100px;
     height: 100%;
     margin: 0 auto;
@@ -223,7 +221,6 @@ tr:nth-child(odd) {
 }
 
 .block_cards {
-    /* width: 280px; */
     width: 301px;
     height: 400px;
     margin-top: 20px;
