@@ -1,0 +1,156 @@
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+    .header .header-img {
+        background-size: 800px;
+    }
+    .information_block .img_me {
+        height: 380px;
+        width: 290px;
+    }
+    .image_skill img {
+        width: 290px;
+        height: 380px;
+    }
+    .list {
+        width: 250px;
+    }
+    .skills .title-skill {
+        font-size: 40px;
+    }
+    .btn {
+        max-width: 250px;
+    }
+    .image_skill {
+        width: 290px;
+        height: 380px;
+    }
+    .cards {
+        width: 645px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        height: 300px !important;
+    }
+    .header .header-img {
+        background-size: 420px 300px;
+    }
+    .information_block .img_me {
+        margin-bottom: 40px;
+    }
+    .image_skill img {
+        width: 270px;
+        height: 350px;
+    }
+    .list {
+        width: 250px;
+    }
+    .skills .title-skill {
+        font-size: 40px;
+    }
+    .btn {
+        max-width: 250px;
+    }
+    .image_skill {
+        width: 270px;
+        height: 350px;
+    }
+    .cards {
+        width: 100% !important;
+    }
+    .block_contacts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo {
+        margin-bottom: 30px !important;
+        font-size: 50px !important;
+    }
+    .information_block {
+        margin-bottom: 100px !important;
+    }
+    .information_block .img_me {
+        height: 300px;
+        width: 230px;
+    }
+    .image_skill img {
+        width: 230px;
+        height: 300px;
+    }
+    .information_block .img_skill {
+        margin-top: 0;
+    }
+    .image_skill {
+        width: 230px;
+        height: 300px;
+    }
+    .list {
+        width: 230px;
+    }
+    .list ul {
+        width: 160px;
+        margin: 0 auto;
+    }
+    .list ul>li {
+        font-size: 14px;
+    }
+    .skills .title-skill {
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .btn {
+        max-width: 230px;
+    }
+    .list-title {
+        font-size: 30px !important;
+    }
+    .cards .block_cards {
+        width: 250px;
+        height: 350px;
+    }
+    .cards .card_title {
+        height: 75px;
+        font-size: 20px;
+    }
+    .cards .card_snippet {
+        height: 180px;
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .cards .card .link_card {
+        margin: 10px 5px;
+        padding: 6px;
+        width: 99px;
+        height: 25px;
+    }
+    .cards .link_card a {
+        font-size: 12px;
+    }
+    .block_contacts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer .block_contacts {
+        margin-top: 15px;
+        height: 80px;
+        font-size: 14px;
+    }
+    .footer .contacts {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+}
