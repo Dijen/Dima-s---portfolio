@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
-    background: linear-gradient(360deg, rgb(93 92 91 / 49%), rgba(94, 204, 255, 0.651));
+    background: linear-gradient( 360deg, rgb(224 108 116), rgb(220 103 109));
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 }
 
 h3 {
-    text-shadow: -3px -3px 5px black;
+    text-shadow: -3px -3px 5px rgba(0, 0, 0, 0.741);
     text-align: center;
 }
 
@@ -34,19 +34,19 @@ h3 {
     position: relative;
     top: 0;
     left: 0;
-    height: 600px;
-    /* width: 1200px; */
     margin: 0 auto;
     padding: 0 16px;
     margin-bottom: 100px;
+    height: 600px;
+    /* width: 1200px; */
 }
 
 .header-img {
-    max-width: 1200px;
-    height: 100%;
     margin: 0 auto;
-    background: url("../img/img-360.png") no-repeat center / 1200px 600px;
-    box-shadow: 0 0px 20px 10px rgb(159, 220, 248) inset, 0 0 20px 10px rgb(158, 220, 249) inset, -20px 10px 20px 20px rgba(255, 255, 255, 0.22) inset;
+    max-width: 1000px;
+    height: 100%;
+    background: url("../img/img-360.png") no-repeat center / 1000px 600px;
+    box-shadow: 0 0 20px 10px rgb(221 104 110) inset, 0 0 20px 10px rgb(220 104 110) inset, 0 0 20px 10px rgb(218 109 117) inset;
 }
 
 
@@ -55,31 +55,23 @@ h3 {
 .description {
     position: relative;
     top: 0;
+    margin: 0 auto;
+    padding: 0 16px;
     width: 100%;
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto;
-    padding: 0 16px;
 }
 
 .description::after {
     content: '';
     display: block;
+    margin-top: 100px;
+    margin-left: -14%;
     width: 1500px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.41);
-    margin-top: 100px;
-    margin-left: -14%;
     box-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561);
 }
-
-
-/* .header {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    width: 100%;
-    height: 600px;
-} */
 
 .header .information {
     position: relative;
@@ -108,19 +100,19 @@ p {
 /* main */
 
 .main {
+    margin: 0 auto 150px;
     width: 100%;
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto 150px;
 }
 
 .container {
-    width: 100%;
-    max-width: 1068px;
-    height: 100%;
     margin: 0 auto;
     padding: 0 16px;
     padding-top: 50px;
+    width: 100%;
+    max-width: 1068px;
+    height: 100%;
 }
 
 
@@ -135,9 +127,9 @@ p {
     margin-bottom: 200px;
     padding: 20px;
     width: 100%;
+    max-width: 1100px;
     height: 100%;
     border-radius: 50px;
-    max-width: 1100px;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
 }
 
@@ -147,6 +139,10 @@ p {
     border: 12px ridge #8d8d8da1;
     border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
+    -webkit-border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
+    -moz-border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
+    -ms-border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
+    -o-border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
 }
 
 .title-skill {
@@ -174,8 +170,8 @@ p {
 } */
 
 ul>li {
-    font-size: 20px;
     margin-bottom: 10px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.719);
 }
 
@@ -204,11 +200,19 @@ ul>li {
 
 .image_skill img {
     transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
 }
 
 .image_skill img:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .btn:active {
@@ -228,9 +232,13 @@ ul>li {
     margin-bottom: 100px;
 }
 
+.block_link-btn {
+    margin: 50px auto;
+}
+
 .list-title {
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
     font-size: 40px;
 }
 
@@ -244,8 +252,12 @@ ul>li {
 }
 
 td {
-    border: 1px solid #fff;
     padding: 5px;
+    border: 1px solid #df6a72;
+}
+
+tr {
+    background-color: #fff
 }
 
 tr:nth-child(odd) {
@@ -267,14 +279,17 @@ tr:nth-child(odd) {
 }
 
 .block_cards {
+    position: relative;
+    margin-top: 20px;
     width: 301px;
     height: 400px;
-    margin-top: 20px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+
+/*  */
 
 .card {
     position: relative;
@@ -285,6 +300,10 @@ tr:nth-child(odd) {
     padding: 1em;
     color: #fff;
     overflow: hidden;
+    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
 }
 
 .card_title {
@@ -314,6 +333,10 @@ tr:nth-child(odd) {
     text-align: center;
     border-radius: 0.25em;
     box-shadow: 0px 5px 5px 5px rgba(13, 13, 13, 0.84);
+    -webkit-border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -ms-border-radius: 0.25em;
+    -o-border-radius: 0.25em;
 }
 
 .link_card a {
@@ -386,11 +409,13 @@ tr:nth-child(odd) {
 /* footer */
 
 .footer {
-    width: 100%;
-    height: 152px;
-    background-color: rgb(99 99 99);
     margin: 0 auto;
     padding: 10px;
+    width: 100%;
+    height: 152px;
+    /* background-color: rgb(99 99 99); */
+    background-color: rgb(223 107 115);
+    box-shadow: -3px -3px 20px rgb(0 0 0 / 74%);
 }
 
 .block_contacts {
