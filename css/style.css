@@ -302,19 +302,14 @@ tr:nth-child(odd) {
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
     transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    transition-property: top;
-    transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier(.99, .99, 0, .61);
+    transition-property: top 0.4s opacity(1);
     /*для сафари*/
     padding: 1em;
     color: #fff;
     overflow: hidden;
     -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -webkit-transition-property: top;
-    -webkit-transition-duration: 0.4s;
-    -webkit-transition-timing-function: cubic-bezier(.99, .99, 0, .61);
+    -webkit-transition-property: top 0.4s opacity(1);
     /*для сафари*/
-    /* -webkit-transition-duration: 2s; */
     -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
@@ -362,18 +357,13 @@ tr:nth-child(odd) {
 
 .block_cards:hover .bottom {
     transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    transition-property: top;
-    transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier(.99, .99, 0, .61);
+    transition-property: top 0.4s opacity(1);
     /*для сафари*/
     /* bottom: 0px; */
     transform: translateY(0);
     /*для сафари*/
+    -webkit-transition-property: top 0.4s opacity(1);
     -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -webkit-transition-property: top;
-    -webkit-transition-duration: 0.4s;
-    -webkit-transition-timing-function: cubic-bezier(.99, .99, 0, .61);
-    /*/.для сафари*/
     -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
@@ -382,20 +372,16 @@ tr:nth-child(odd) {
 .block_cards:hover {
     transform: translateY(-10px);
     transition: all 0.5s ease;
+    transition-property: all 0.5s ease;
     /*для сафари*/
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-    /*для сафари*/
     -webkit-transition: all 0.5s ease;
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease;
-    /*/.для сафари*/
+    -webkit-transition-property: all 0.5s ease;
+    /*для сафари*/
+    -webkit-transition-property: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
