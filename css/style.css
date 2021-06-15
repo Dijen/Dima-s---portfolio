@@ -297,30 +297,19 @@ tr:nth-child(odd) {
 }
 
 .card {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
-    /* transition: all 0.4s cubic-bezier(.99, .99, 0, .61); */
-    transition-property: color;
-    transition-duration: 0.4s;
     /*для сафари*/
     padding: 1em;
     color: #fff;
     overflow: hidden;
-    /* -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61); */
-    -webkit-transition-property: color;
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-property: color;
-    -moz-transition-duration: 0.4s;
-    -o-transition-property: color;
-    -o-transition-duration: 0.4s;
-    -ms-transition-property: color;
-    -ms-transition-duration: 0.4s;
-    /*для сафари*/
-    /* -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61); */
+    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
 }
 
 .card_title {
@@ -364,52 +353,26 @@ tr:nth-child(odd) {
 }
 
 .block_cards:hover .bottom {
-    /* transition: all 0.4s cubic-bezier(.99, .99, 0, .61); */
-    transition-property: color;
-    transition-duration: 0.5s;
-    opacity: 1;
-    /*для сафари*/
-    bottom: 0px;
-    /*transform: translateY(0);*/
-    /*для сафари*/
-    -webkit-transition-property: color;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-property: color;
-    -moz-transition-duration: 0.5s;
-    -o-transition-property: color;
-    -o-transition-duration: 0.5s;
-    -ms-transition-property: color;
-    -ms-transition-duration: 0.5s;
-    /* -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    transform: translateY(0);
+    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61); */
+    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
 }
 
 .block_cards:hover {
     transform: translateY(-10px);
-    /* transition: all 0.5s ease; */
-    transition-property: color;
-    transition-duration: 0.5s;
-    opacity: 1;
-    /*для сафари*/
+    transform: translateY(-10px);
+    transition: all 0.5s ease;
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-    /* -webkit-transition: all 0.5s ease; */
-    -webkit-transition-property: color;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-property: color;
-    -moz-transition-duration: 0.5s;
-    -o-transition-property: color;
-    -o-transition-duration: 0.5s;
-    -ms-transition-property: color;
-    -ms-transition-duration: 0.5s;
-    /*для сафари*/
-    /* -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease; */
+    -o-transition: all 0.5s ease;
 }
 
 .link_card:hover {
