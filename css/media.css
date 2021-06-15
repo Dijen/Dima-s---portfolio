@@ -236,11 +236,11 @@
         height: 75px;
         font-size: 20px;
     }
-    .cards .card_snippet {
+    /* .cards .card_snippet {
         height: 180px;
         line-height: 15px;
         font-size: 12px;
-    }
+    } */
     .cards .card .link_card {
         margin: 10px 4px;
         padding: 6px;

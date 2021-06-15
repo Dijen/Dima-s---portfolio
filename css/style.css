@@ -313,10 +313,11 @@ tr:nth-child(odd) {
 
 .card_title {
     text-shadow: 1px 4px 0px rgba(0, 0, 0, 0.63);
-    height: 84px;
+    height: 80%;
 }
 
-.card_snippet {
+
+/* .card_snippet {
     position: relative;
     line-height: 1.2em;
     height: 190px;
@@ -326,7 +327,7 @@ tr:nth-child(odd) {
     font-weight: 600;
     font-style: italic;
     overflow: hidden;
-}
+} */
 
 .card .link_card {
     margin: 20px 7px;
