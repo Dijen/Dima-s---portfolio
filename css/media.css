@@ -93,6 +93,32 @@
     .cards {
         width: 508px !important;
     }
+    /* .card {
+        transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    }
+    .block_cards:hover .bottom {
+        transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+        -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    }
+    .block_cards:hover {
+        transform: translateY(-10px);
+        transition: all 0.5s ease;
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    } */
     .block_contacts {
         margin-top: 30px !important;
         max-height: 80px;

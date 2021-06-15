@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
-    background: linear-gradient( 360deg, rgb(224 108 116), rgb(220 103 109));
+    background: linear-gradient( 360deg, #ffc072, #fd7500);
 }
 
 a {
@@ -46,7 +46,7 @@ h3 {
     max-width: 1000px;
     height: 100%;
     background: url("../img/img-360.png") no-repeat center / 1000px 600px;
-    box-shadow: 0 0 20px 10px rgb(221 104 110) inset, 0 0 20px 10px rgb(220 104 110) inset, 0 0 20px 10px rgb(218 109 117) inset;
+    box-shadow: 0 0 20px 10px rgb(253 125 12) inset, 0 0 20px 10px rgb(253 128 17) inset, 0 0 20px 10px rgb(253 129 19) inset;
 }
 
 
@@ -84,7 +84,7 @@ h3 {
 .logo {
     margin-bottom: 50px;
     font-size: 60px;
-    text-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561);
+    /* text-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561); */
 }
 
 .sub_title {
@@ -93,7 +93,8 @@ h3 {
 }
 
 p {
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 
@@ -131,6 +132,7 @@ p {
     height: 100%;
     border-radius: 50px;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
+    background-color: rgb(255 255 255 / 65%);
 }
 
 .img_me {
@@ -288,9 +290,6 @@ tr:nth-child(odd) {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-
-/*  */
-
 .card {
     position: relative;
     width: 100%;
@@ -347,7 +346,8 @@ tr:nth-child(odd) {
 
 .block_cards:hover .bottom {
     transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    bottom: 0px;
+    /* bottom: 0px; */
+    transform: translateY(0);
     -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
@@ -378,7 +378,12 @@ tr:nth-child(odd) {
 }
 
 .bottom {
-    bottom: -420px;
+    /* bottom: -420px; */
+    transform: translateY(420px);
+    -webkit-transform: translateY(420px);
+    -moz-transform: translateY(420px);
+    -ms-transform: translateY(420px);
+    -o-transform: translateY(420px);
 }
 
 .card-1 {
@@ -412,9 +417,8 @@ tr:nth-child(odd) {
     margin: 0 auto;
     padding: 10px;
     width: 100%;
-    height: 152px;
-    /* background-color: rgb(99 99 99); */
-    background-color: rgb(223 107 115);
+    height: 80px;
+    background-color: rgb(176 83 234);
     box-shadow: -3px -3px 20px rgb(0 0 0 / 74%);
 }
 
@@ -425,7 +429,7 @@ tr:nth-child(odd) {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
-    height: 110px;
+    height: 60px;
 }
 
 .h2 {
