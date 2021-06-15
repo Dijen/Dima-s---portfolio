@@ -120,8 +120,8 @@
         -o-transition: all 0.5s ease;
     } */
     .block_contacts {
-        margin-top: 30px !important;
-        max-height: 80px;
+        margin-top: 10px !important;
+        max-height: 50px;
     }
     .contacts:nth-child(odd) {
         align-self: flex-start;
@@ -255,9 +255,8 @@
         flex-wrap: wrap;
     }
     .footer .block_contacts {
-        margin-top: 15px !important;
-        height: 80px;
-        font-size: 14px;
+        margin-top: 5px !important;
+        font-size: 13px;
     }
 }
 
