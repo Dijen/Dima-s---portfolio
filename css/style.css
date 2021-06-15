@@ -369,8 +369,8 @@ tr:nth-child(odd) {
     transition-duration: 0.5s;
     opacity: 1;
     /*для сафари*/
-    /* bottom: 0px; */
-    transform: translateY(0);
+    bottom: 0px;
+    /*transform: translateY(0);*/
     /*для сафари*/
     -webkit-transition-property: color;
     -webkit-transition-duration: 0.5s;
@@ -423,12 +423,12 @@ tr:nth-child(odd) {
 }
 
 .bottom {
-    /* bottom: -420px; */
-    transform: translateY(420px);
+    bottom: -420px;
+    /*transform: translateY(420px);
     -webkit-transform: translateY(420px);
     -moz-transform: translateY(420px);
     -ms-transform: translateY(420px);
-    -o-transform: translateY(420px);
+    -o-transform: translateY(420px);*/
 }
 
 .card-1 {
