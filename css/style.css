@@ -218,16 +218,19 @@ ul>li {
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+    cursor: pointer;
 }
 
 .btn:active {
     box-shadow: none;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color: rgba(206, 206, 206, 0.815);
     color: #000;
+    cursor: pointer;
 }
 
 
