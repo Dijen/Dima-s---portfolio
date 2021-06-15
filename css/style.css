@@ -11,7 +11,10 @@ html {
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
-    background: linear-gradient( 360deg, #ffc072, #fd7500);
+    /* background: linear-gradient( 360deg, #ffc072, #fd7500); */
+    /* background: url("..///img/работы/1.jpg") no-repeat center / cover; */
+    background: rgb(2, 20, 255);
+    background: linear-gradient( 218deg, rgba(2, 20, 255, 1) 0%, rgba(255, 0, 0, 1) 52%, rgba(118, 243, 255, 1) 100%);
 }
 
 a {
