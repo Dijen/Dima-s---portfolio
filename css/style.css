@@ -296,20 +296,17 @@ tr:nth-child(odd) {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+/* /.без всплывающего окна */
+
 .card {
     /* position: relative; */
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
-    /*для сафари*/
     padding: 1em;
     color: #fff;
     overflow: hidden;
-    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
 }
 
 .card_title {
@@ -352,17 +349,7 @@ tr:nth-child(odd) {
     font-size: 14px;
 }
 
-.block_cards:hover .bottom {
-    transform: translateY(0);
-    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-}
-
 .block_cards:hover {
-    transform: translateY(-10px);
     transform: translateY(-10px);
     transition: all 0.5s ease;
     -webkit-transform: translateY(-10px);
@@ -393,6 +380,9 @@ tr:nth-child(odd) {
     -ms-transform: translateY(420px);
     -o-transform: translateY(420px);*/
 }
+
+
+/* /.без всплывающего окна */
 
 .card-1 {
     background: url("..///img/работы/1.jpg");
@@ -456,3 +446,34 @@ tr:nth-child(odd) {
 .footer_link:hover {
     color: black;
 }
+
+
+/* всплывающее окно */
+
+
+/* .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    padding: 1em;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+}
+
+.block_cards:hover .bottom {
+    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    bottom: 0px;
+    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
+} */
+
+
+/* всплывающее окно */
