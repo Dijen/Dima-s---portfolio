@@ -302,13 +302,13 @@ tr:nth-child(odd) {
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
     transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    transition-property: top 0.4s opacity(1);
+    transition-property: all 0.4s opacity(1);
     /*для сафари*/
     padding: 1em;
     color: #fff;
     overflow: hidden;
     -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -webkit-transition-property: top 0.4s opacity(1);
+    -webkit-transition-property: all 0.4s opacity(1);
     /*для сафари*/
     -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
@@ -357,12 +357,12 @@ tr:nth-child(odd) {
 
 .block_cards:hover .bottom {
     transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    transition-property: top 0.4s opacity(1);
+    transition-property: all 0.4s opacity(1);
     /*для сафари*/
     /* bottom: 0px; */
     transform: translateY(0);
     /*для сафари*/
-    -webkit-transition-property: top 0.4s opacity(1);
+    -webkit-transition-property: all 0.4s opacity(1);
     -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
     -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
