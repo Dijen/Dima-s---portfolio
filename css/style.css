@@ -368,14 +368,15 @@ tr:nth-child(odd) {
 /* /.без всплывающего окна */
 
 .card-1 {
-    background: url("..///img/работы/1.jpg");
+    background: url("..///img/работы/скульптор.jpg") no-repeat center / 301px 400px;
 }
 
 .card-2 {
-    background: url("..///img/работы/2.jpg");
+    background: url("..///img/работы/сктмф.png") no-repeat center / 301px 300px;
 }
 
-.card-3 {
+
+/* .card-3 {
     background: url("..///img/работы/3.jpg");
 }
 
@@ -389,7 +390,7 @@ tr:nth-child(odd) {
 
 .card-6 {
     background: url("..///img/работы/6.jpg");
-}
+} */
 
 .text-i_footer {
     width: 400px;
