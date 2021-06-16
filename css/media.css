@@ -133,7 +133,7 @@
         height: 260px !important;
     }
     .header .header-img {
-        background-size: 380px 260px;
+        background-size: 450px 260px;
     }
     .sub_title {
         font-size: 27px !important;
@@ -181,14 +181,23 @@
         height: 260px !important;
     }
     .header .header-img {
-        background-size: 320px 250px;
+        background-size: 400px 250px;
     }
     .sub_title {
         font-size: 27px !important;
     }
 }
 
+@media (max-width: 360px) {
+    .header .header-img {
+        background-size: 380px 250px;
+    }
+}
+
 @media (max-width: 320px) {
+    .header .header-img {
+        background-size: 335px 250px;
+    }
     .sub_title {
         font-size: 27px !important;
     }

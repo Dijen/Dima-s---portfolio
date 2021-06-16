@@ -29,6 +29,11 @@ h3 {
     text-align: center;
 }
 
+p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
 
 /* header */
 
@@ -88,16 +93,11 @@ h3 {
     /* text-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561); */
 }
 
-p {
-    font-size: 17px;
-    line-height: 25px;
-}
-
 
 /* main */
 
 .main {
-    margin: 0 auto 150px;
+    margin: 0 auto 80px;
     width: 100%;
     max-width: 1200px;
     height: 100%;
@@ -240,6 +240,21 @@ tr:nth-child(odd) {
     background-color: rgb(179, 179, 179);
 }
 
+.text-i {
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.text-i::before {
+    content: '';
+    display: block;
+    margin: 20px 0 60px -30%;
+    width: 1500px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.41);
+    box-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561);
+}
+
 
 /* my_works */
 
@@ -374,6 +389,11 @@ tr:nth-child(odd) {
 
 .card-6 {
     background: url("..///img/работы/6.jpg");
+}
+
+.text-i_footer {
+    width: 400px;
+    margin: 0 auto 80px;
 }
 
 
