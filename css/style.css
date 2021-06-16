@@ -13,8 +13,7 @@ body {
     font-size: 16px;
     /* background: linear-gradient( 360deg, #ffc072, #fd7500); */
     /* background: url("..///img/работы/1.jpg") no-repeat center / cover; */
-    background: rgb(2, 20, 255);
-    background: linear-gradient( 218deg, rgba(2, 20, 255, 1) 0%, rgba(255, 0, 0, 1) 52%, rgba(118, 243, 255, 1) 100%);
+    background: linear-gradient( 218deg, rgba(2 20 255 / 55%) 0%, rgba(255, 0, 0, 0.71) 52%, rgba(118, 243, 255, 1) 100%);
 }
 
 a {
@@ -46,10 +45,10 @@ h3 {
 
 .header-img {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1400px;
     height: 100%;
-    background: url("../img/img-360.png") no-repeat center / 1000px 600px;
-    box-shadow: 0 0 20px 10px rgb(253 125 12) inset, 0 0 20px 10px rgb(253 128 17) inset, 0 0 20px 10px rgb(253 129 19) inset;
+    background: url("../img/WorldThour.png") no-repeat center / 1400px 600px;
+    /* box-shadow: 0 0 20px 10px rgb(253 125 12) inset, 0 0 20px 10px rgb(253 128 17) inset, 0 0 20px 10px rgb(253 129 19) inset;  */
 }
 
 
@@ -65,11 +64,10 @@ h3 {
     height: 100%;
 }
 
-.description::after {
+.description::before {
     content: '';
     display: block;
-    margin-top: 100px;
-    margin-left: -14%;
+    margin: 20px 0 80px -14%;
     width: 1500px;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.41);
@@ -84,19 +82,14 @@ h3 {
     /* width: 1200px; */
 }
 
-.logo {
-    margin-bottom: 50px;
-    font-size: 60px;
+.sub_title {
+    margin-bottom: 30px;
+    font-size: 40px;
     /* text-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561); */
 }
 
-.sub_title {
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
 p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
 }
 
@@ -135,7 +128,7 @@ p {
     height: 100%;
     border-radius: 50px;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
-    background-color: rgb(255 255 255 / 65%);
+    background-color: rgba(215 217 232 / 88%);
 }
 
 .img_me {
@@ -191,34 +184,9 @@ ul>li {
     text-align: center;
 }
 
-.img_skill {
+.text {
     margin-top: 50px;
-}
-
-.image_skill {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    max-height: 450px;
-    /* overflow: hidden; */
-    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
-}
-
-.image_skill img {
-    transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-}
-
-.image_skill img:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    cursor: pointer;
+    width: 90%;
 }
 
 .btn:active {
@@ -428,10 +396,6 @@ tr:nth-child(odd) {
     width: 100%;
     max-width: 1200px;
     height: 60px;
-}
-
-.h2 {
-    text-align: center;
 }
 
 .contacts {

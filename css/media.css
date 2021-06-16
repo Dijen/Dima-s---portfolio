@@ -58,10 +58,10 @@
     .header {
         margin-bottom: 20px !important;
         margin-top: 20px !important;
-        max-height: 500px;
+        max-height: 300px;
     }
     .header .header-img {
-        background-size: 850px 500px;
+        background-size: 550px 300px;
     }
     .information_block {
         margin-bottom: 90px !important;
@@ -135,6 +135,9 @@
     .header .header-img {
         background-size: 380px 260px;
     }
+    .sub_title {
+        font-size: 27px !important;
+    }
     .information_block {
         margin-bottom: 90px !important;
     }
@@ -180,15 +183,14 @@
     .header .header-img {
         background-size: 320px 250px;
     }
-    .logo {
-        font-size: 45px !important;
+    .sub_title {
+        font-size: 27px !important;
     }
 }
 
 @media (max-width: 320px) {
-    .logo {
-        margin-bottom: 30px !important;
-        font-size: 50px !important;
+    .sub_title {
+        font-size: 27px !important;
     }
     .information_block .img_me {
         height: 300px;
@@ -233,8 +235,8 @@
         height: 350px;
     }
     .cards .card_title {
-        height: 75px;
-        font-size: 20px;
+        height: 80%;
+        font-size: 19px;
     }
     /* .cards .card_snippet {
         height: 180px;
@@ -263,14 +265,18 @@
 @media (max-width: 280px) {
     .header {
         height: 210px !important;
+        max-width: 100%;
     }
     .header .header-img {
-        background-size: 240px 200px;
+        background-size: 290px 200px;
     }
-    .logo {
-        font-size: 35px !important;
+    .sub_title {
+        font-size: 30px !important;
     }
     .information_block {
         box-shadow: none !important;
+    }
+    td {
+        font-size: 13px;
     }
 }
