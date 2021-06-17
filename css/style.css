@@ -11,7 +11,8 @@ html {
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
-    background: linear-gradient( 218deg, rgb(1 9 107 / 55%) 0%, rgba(255, 0, 0, 0.71) 52%, rgba(118, 243, 255, 1) 100%);
+    background: linear-gradient( 58deg, rgb(1 9 107 / 55%) 0%, rgba(255, 0, 0, 0.71) 52%, rgba(118, 243, 255, 1) 100%);
+    /* 218 было */
 }
 
 a {
@@ -20,6 +21,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     color: #fff;
+    text-shadow: 0px 0px 4px black;
 }
 
 h3 {
@@ -31,6 +33,7 @@ p {
     font-size: 17px;
     line-height: 25px;
     color: #fff;
+    /* text-shadow: -2px -1px 2px black; */
 }
 
 
@@ -45,7 +48,7 @@ p {
     height: 100px;
     background-color: rgb(201 201 201);
     /* background-color: rgba(176, 83, 234, 0.251); */
-    box-shadow: -3px -3px 20px rgb(0 0 0 / 74%);
+    box-shadow: -3px -3px 15px 10px rgba(0 0 0 / 74%);
 }
 
 .header-img {
@@ -65,6 +68,7 @@ p {
 
 .header_span {
     text-align: right;
+    text-shadow: 0px 0px 4px black;
 }
 
 
@@ -80,14 +84,16 @@ p {
 
 /* 3d-tour */
 
-.color-tour {
-    background-color: #fff;
-}
-
 .tour-3d {
+    margin: 0 auto 50px;
+    padding-top: 50px;
     width: inherit;
     height: 500px;
-    margin: 50px auto;
+}
+
+.color-tour {
+    height: 600px;
+    background-color: rgb(222, 222, 222);
 }
 
 
@@ -99,7 +105,6 @@ p {
     width: 100%;
     height: 400px;
     background-color: #fff;
-    box-shadow: 0px 0px 15px 10px rgb(0 0 0 / 56%);
 }
 
 .information {
@@ -107,7 +112,10 @@ p {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    width: 1068px;
+    /* width: 1068px; */
+    width: 100%;
+    background: linear-gradient( 58deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(97, 97, 97, 0.471), rgba(255, 255, 255, 0), rgba(99, 99, 99, 0.471), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.369));
+    box-shadow: 0px 0px 15px 10px rgb(0 0 0 / 56%);
 }
 
 .block_icon {
@@ -125,15 +133,6 @@ p {
     text-align: center;
     font-size: 18px;
     line-height: 20px;
-}
-
-.main_information::after {
-    content: '';
-    position: absolute;
-    width: 1903px;
-    height: 400px;
-    /* background-color: rgba(0, 0, 0, 0.278); */
-    background: linear-gradient( 58deg, #ffffff, #ffffff, rgba(97, 97, 97, 0.471), rgba(255, 255, 255, 0), rgba(99, 99, 99, 0.471), rgba(255, 255, 255, 0), #ffffff, rgba(0, 0, 0, 0.369));
 }
 
 
@@ -246,6 +245,7 @@ ul>li {
 
 .text_p {
     color: #000;
+    text-shadow: none;
 }
 
 .btn:active {
