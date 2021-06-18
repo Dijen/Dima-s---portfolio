@@ -12,7 +12,6 @@ body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
     background: linear-gradient( 58deg, rgb(1 9 107 / 55%) 0%, rgba(255, 0, 0, 0.71) 52%, rgba(118, 243, 255, 1) 100%);
-    /* 218 было */
 }
 
 a {
@@ -33,7 +32,6 @@ p {
     font-size: 17px;
     line-height: 25px;
     color: #fff;
-    /* text-shadow: -2px -1px 2px black; */
 }
 
 
@@ -46,8 +44,7 @@ p {
     margin: 0 auto;
     padding: 0 16px;
     height: 100px;
-    background-color: rgb(201 201 201);
-    /* background-color: rgba(176, 83, 234, 0.251); */
+    background-color: rgba(255, 255, 255, 0.29);
     box-shadow: -3px -3px 15px 10px rgba(0 0 0 / 74%);
 }
 
@@ -88,12 +85,6 @@ p {
     margin: 0 auto 50px;
     padding-top: 50px;
     width: inherit;
-    height: 500px;
-}
-
-.color-tour {
-    height: 600px;
-    background-color: rgb(222, 222, 222);
 }
 
 
@@ -101,10 +92,9 @@ p {
 
 .main_information {
     display: flex;
-    /* margin-top: 50px; */
     width: 100%;
-    height: 400px;
-    background-color: #fff;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.29);
 }
 
 .information {
@@ -112,7 +102,6 @@ p {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    /* width: 1068px; */
     width: 100%;
     background: linear-gradient( 58deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(97, 97, 97, 0.471), rgba(255, 255, 255, 0), rgba(99, 99, 99, 0.471), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.369));
     box-shadow: 0px 0px 15px 10px rgb(0 0 0 / 56%);
@@ -163,7 +152,6 @@ p {
 .sub_title {
     margin-bottom: 30px;
     font-size: 40px;
-    /* text-shadow: 1px 1px 9px black, 0 0px 0.2em rgba(19, 0, 255, 0.561); */
 }
 
 
@@ -186,8 +174,8 @@ p {
 }
 
 .img_me {
-    height: 450px;
-    width: 350px;
+    height: 400px;
+    width: 360px;
     border: 12px ridge #8d8d8da1;
     border-radius: 90% 10% 84% 16% / 28% 75% 25% 72%;
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.561);
@@ -209,17 +197,7 @@ p {
     flex-basis: 40%;
     width: 350px;
     height: 400px;
-    /* flex-basis: 50%;
-    height: 400px; */
 }
-
-
-/* ul {
-  display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
 
 ul>li {
     margin-bottom: 10px;
@@ -339,10 +317,9 @@ tr:nth-child(odd) {
 }
 
 
-/* /.без всплывающего окна */
+/* без всплывающего окна */
 
 .card {
-    /* position: relative; */
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
@@ -407,11 +384,6 @@ tr:nth-child(odd) {
 
 .bottom {
     bottom: -420px;
-    /*transform: translateY(420px);
-    -webkit-transform: translateY(420px);
-    -moz-transform: translateY(420px);
-    -ms-transform: translateY(420px);
-    -o-transform: translateY(420px);*/
 }
 
 
@@ -424,23 +396,6 @@ tr:nth-child(odd) {
 .card-2 {
     background: url("..///img/работы/сктмф.png") no-repeat center / 301px 300px;
 }
-
-
-/* .card-3 {
-    background: url("..///img/работы/3.jpg");
-}
-
-.card-4 {
-    background: url("..///img/работы/4.jpg");
-}
-
-.card-5 {
-    background: url("..///img/работы/5.jpg");
-}
-
-.card-6 {
-    background: url("..///img/работы/6.jpg");
-} */
 
 .text-i_footer {
     width: 400px;
@@ -481,34 +436,3 @@ tr:nth-child(odd) {
 .link:hover {
     color: black;
 }
-
-
-/* всплывающее окно */
-
-
-/* .card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.45);
-    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    padding: 1em;
-    color: #fff;
-    overflow: hidden;
-    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-}
-
-.block_cards:hover .bottom {
-    transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    bottom: 0px;
-    -webkit-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -moz-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -ms-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-    -o-transition: all 0.4s cubic-bezier(.99, .99, 0, .61);
-} */
-
-
-/* всплывающее окно */

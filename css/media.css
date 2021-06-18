@@ -5,6 +5,10 @@
     .information_block {
         margin-bottom: 90px !important;
     }
+    .information_block .img_me {
+        height: 420px;
+        width: 380px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -12,8 +16,8 @@
         margin-bottom: 90px !important;
     }
     .information_block .img_me {
-        height: 380px;
-        width: 290px;
+        height: 370px;
+        width: 320px;
     }
     .image_skill img {
         width: 290px;
@@ -42,7 +46,7 @@
         margin-bottom: 90px !important;
     }
     .information_block .img_me {
-        height: 380px;
+        height: 350px;
         width: 290px;
     }
     .skills {
@@ -189,12 +193,15 @@
         font-size: 27px !important;
     }
     .information_block .img_me {
-        height: 300px;
+        height: 280px;
         width: 230px;
     }
     .image_skill img {
         width: 230px;
         height: 300px;
+    }
+    .skills {
+        margin-top: 20px;
     }
     .information_block .img_skill {
         margin-top: 0;
@@ -237,11 +244,6 @@
         height: 80%;
         font-size: 19px;
     }
-    /* .cards .card_snippet {
-        height: 180px;
-        line-height: 15px;
-        font-size: 12px;
-    } */
     .cards .card .link_card {
         margin: 10px 4px;
         padding: 6px;
